@@ -1,5 +1,5 @@
-#include "bench_common.h"
-#include "workload_io.h"
+#include "bench_common.h" // benchmark machinery
+#include "workload_io.h" // io_task() function availability
 
 int main(void)
 {
