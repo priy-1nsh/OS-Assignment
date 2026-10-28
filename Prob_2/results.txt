@@ -1,0 +1,182 @@
+### sched_rr_timeslice_ms = 1 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 1ms
+  Involuntary Context Switches: 2550
+  Voluntary Context Switches: 8
+  Average Response Time: 7.40ms
+  Maximum Response Time: 31.27ms
+  Average Turnaround Time: 4928.45ms
+  Maximum Turnaround Time: 6056.86ms
+  Throughput: 1.32 children/s
+  Total Elapsed Time: 6.06s
+
+### sched_rr_timeslice_ms = 10 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 10ms
+  Involuntary Context Switches: 237
+  Voluntary Context Switches: 8
+  Average Response Time: 134.31ms
+  Maximum Response Time: 195.67ms
+  Average Turnaround Time: 4858.81ms
+  Maximum Turnaround Time: 5735.26ms
+  Throughput: 1.39 children/s
+  Total Elapsed Time: 5.74s
+
+### sched_rr_timeslice_ms = 50 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 50ms
+  Involuntary Context Switches: 60
+  Voluntary Context Switches: 8
+  Average Response Time: 338.50ms
+  Maximum Response Time: 726.93ms
+  Average Turnaround Time: 5293.38ms
+  Maximum Turnaround Time: 5859.12ms
+  Throughput: 1.37 children/s
+  Total Elapsed Time: 5.86s
+
+### sched_rr_timeslice_ms = 150 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 150ms
+  Involuntary Context Switches: 29
+  Voluntary Context Switches: 8
+  Average Response Time: 1228.64ms
+  Maximum Response Time: 2238.95ms
+  Average Turnaround Time: 4833.21ms
+  Maximum Turnaround Time: 6157.67ms
+  Throughput: 1.30 children/s
+  Total Elapsed Time: 6.16s
+
+### sched_rr_timeslice_ms = 300 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 300ms
+  Involuntary Context Switches: 33
+  Voluntary Context Switches: 8
+  Average Response Time: 2505.47ms
+  Maximum Response Time: 4950.65ms
+  Average Turnaround Time: 4884.74ms
+  Maximum Turnaround Time: 6874.70ms
+  Throughput: 1.16 children/s
+  Total Elapsed Time: 6.87s
+
+### sched_rr_timeslice_ms = 500 (requested)
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 500ms
+  Involuntary Context Switches: 11
+  Voluntary Context Switches: 8
+  Average Response Time: 2872.99ms
+  Maximum Response Time: 5614.09ms
+  Average Turnaround Time: 4518.36ms
+  Maximum Turnaround Time: 6406.79ms
+  Throughput: 1.25 children/s
+  Total Elapsed Time: 6.41s
+
+### FIFO run
+Program-A (CPU-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_FIFO
+  Involuntary Context Switches: 23
+  Voluntary Context Switches: 8
+  Average Response Time: 4502.20ms
+  Maximum Response Time: 8691.71ms
+  Average Turnaround Time: 5713.74ms
+  Maximum Turnaround Time: 9733.87ms
+  Throughput: 0.82 children/s
+  Total Elapsed Time: 9.73s
+
+### sched_rr_timeslice_ms = 1 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 1ms
+  Involuntary Context Switches: 413
+  Voluntary Context Switches: 76103
+  Average Response Time: 20.70ms
+  Maximum Response Time: 58.25ms
+  Average Turnaround Time: 38581.83ms
+  Maximum Turnaround Time: 38606.08ms
+  Throughput: 0.21 children/s
+  Total Elapsed Time: 38.61s
+
+### sched_rr_timeslice_ms = 10 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 10ms
+  Involuntary Context Switches: 50
+  Voluntary Context Switches: 76223
+  Average Response Time: 20.95ms
+  Maximum Response Time: 41.85ms
+  Average Turnaround Time: 39417.68ms
+  Maximum Turnaround Time: 39445.15ms
+  Throughput: 0.20 children/s
+  Total Elapsed Time: 39.45s
+
+### sched_rr_timeslice_ms = 50 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 50ms
+  Involuntary Context Switches: 8
+  Voluntary Context Switches: 76356
+  Average Response Time: 5.52ms
+  Maximum Response Time: 12.99ms
+  Average Turnaround Time: 47687.50ms
+  Maximum Turnaround Time: 47698.52ms
+  Throughput: 0.17 children/s
+  Total Elapsed Time: 47.70s
+
+### sched_rr_timeslice_ms = 150 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 150ms
+  Involuntary Context Switches: 1
+  Voluntary Context Switches: 76200
+  Average Response Time: 2.60ms
+  Maximum Response Time: 3.83ms
+  Average Turnaround Time: 40983.05ms
+  Maximum Turnaround Time: 41001.05ms
+  Throughput: 0.20 children/s
+  Total Elapsed Time: 41.00s
+
+### sched_rr_timeslice_ms = 300 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 300ms
+  Involuntary Context Switches: 1
+  Voluntary Context Switches: 76304
+  Average Response Time: 4.34ms
+  Maximum Response Time: 7.78ms
+  Average Turnaround Time: 49800.93ms
+  Maximum Turnaround Time: 49817.84ms
+  Throughput: 0.16 children/s
+  Total Elapsed Time: 49.82s
+
+### sched_rr_timeslice_ms = 500 (requested)
+Program-B (I/O-Bound)
+--------------------------------------------------
+Scheduling Policy: SCHED_RR
+Time Quantum: 500ms
+  Involuntary Context Switches: 14
+  Voluntary Context Switches: 76330
+  Average Response Time: 57.41ms
+  Maximum Response Time: 100.54ms
+  Average Turnaround Time: 48342.98ms
+  Maximum Turnaround Time: 48354.32ms
+  Throughput: 0.17 children/s
+  Total Elapsed Time: 48.35s
+
+### FIFO run
